@@ -1,18 +1,32 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# 📝 Descrição
 
-## Folder Structure
+Você deve desenvolver uma aplicação java de calendário de feriados!
 
-The workspace contains two folders by default, where:
+"01/01/2023" => "Confraternização mundial"
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+"21/02/2023" => "Carnaval"
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+"17/04/2023" => "Páscoa"
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+"21/04/2023" => "Tiradentes"
 
-## Dependency Management
+"01/05/2023" => "Dia do trabalho"
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+"08/06/2023" => "Corpus Christi"
+
+"07/09/2023" => "Independência do Brasil"
+
+"12/10/2023" => "Nossa Senhora Aparecida"
+
+"02/11/2023" => "Finados"
+
+"15/11/2023" => "Proclamação da República"
+
+"25/12/2023" => "Natal"
+
+# ✅ Requisitos
+
+- [ ]  Ter uma classe separada para trabalhar com os feriados
+- [ ]  Ter um função que recebe um parâmetro string que é a data do feriado! Caso não exista exibe uma mensagem dizendo que não existe feriado com tal dada, caso exista, buscar na lista de feriados o feriado com a data e imprimir uma mensagem informando a qual feriado se refere.
+- [ ]  Ter uma função que retorna a lista com todos os feriados.
